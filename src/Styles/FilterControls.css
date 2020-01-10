@@ -1,0 +1,23 @@
+.nav {
+  font-size: 32px;
+  padding: 18px;
+  text-decoration: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.nav:hover {
+  color: rgb(184, 83, 184);
+}
+
+.header {
+  text-align: center;
+  font-size: 95px;
+  margin-bottom: 30px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: .07em;
+}
+
+.links {
+  text-align: center;
+}
