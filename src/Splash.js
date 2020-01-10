@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Styles/Splash.css'
 
 
@@ -7,9 +7,12 @@ import './Styles/Splash.css'
   return (
     <div className='splash'>
       <h1 className='splash-header'>Adam Niedzwiecki</h1>
-      <Link to='/home'>
-        <button>ENTER</button>
-      </Link>
+      <h5 className='splash-desc'>Developer, Musician, Producer</h5>
+      <div className='btn-container'>
+        <Link to='/home'>
+          <button className='enter-btn'>ENTER</button>
+        </Link>
+      </div>
     </div>
   )
 }
