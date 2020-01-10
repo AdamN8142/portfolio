@@ -6,7 +6,7 @@ import './Styles/Splash.css'
  const Splash = () => {
   return (
     <div className='splash'>
-      <h1>Adam</h1>
+      <h1 className='splash-header'>Adam Niedzwiecki</h1>
       <Link to='/home'>
         <button>ENTER</button>
       </Link>
