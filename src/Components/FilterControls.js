@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import './Styles/FilterControls.css'
+import '../Styles/FilterControls.css'
 import { NavLink } from 'react-router-dom'
 
 

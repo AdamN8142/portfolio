@@ -1,3 +1,38 @@
+.splash-header {
+  font-size: 130px;
+  background: linear-gradient(rgba(255, 0, 0, 0.468), rgba(59, 59, 189, 0.605));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: .07em;
+  padding-left: 15px;
+}
+
+.splash-desc{
+  font-size: 50px;
+  background: linear-gradient(rgba(255, 0, 0, 0.468), rgba(59, 59, 189, 0.605));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: .07em;
+  padding-left: 15px;
+
+}
+
 .splash {
-  
+  background-image: url('https://c.stocksy.com/a/IkX200/z9/606378.jpg?1570350419');
+  height: 100vh;
+  background-size: cover;
+}
+
+.enter-btn {
+  font-weight: bolder;
+  border-radius: 25px;
+  height: 40px;
+  width: 160px;
+  font-size: 25px;
+}
+
+.btn-container {
+  text-align: center;
 }
